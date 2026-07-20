@@ -22,9 +22,9 @@ AI 在解释或翻译课程内容之前，应先读取：
 ## 2. 当前学习位置
 
 - 当前单元：Single systems
-- 当前小节：Classical information
-- 上一小节：Introduction
-- 下一小节：Quantum information
+- 当前小节：Quantum information
+- 上一小节：Classical information
+- 下一小节：Qiskit implementation
 
 每完成一个小节后，应更新本部分。
 
@@ -63,6 +63,17 @@ AI 在解释或翻译课程内容之前，应先读取：
   - 能够说明测量在被测系统的有效描述中通常不可逆
 - 仍需注意的问题：
   - 系统级测量描述与更大系统整体酉演化之间的关系
+- 概念：经典状态、概率向量与随机矩阵
+- 掌握证据：
+  - 能够判断一个向量是否为合法概率向量
+  - 能够解释经典测量后的知识更新
+  - 能够使用 ket、bra、内积和外积表示向量与矩阵
+  - 能够从确定性函数构造对应矩阵
+  - 能够判断列随机矩阵并计算其对概率向量的作用
+  - 能够识别并验证简单不变分布
+- 仍需注意的问题：
+  - 区分经典概率向量与量子概率振幅向量
+  - 区分列随机矩阵和行随机矩阵约定
 
 完成复习和习题后，按照以下格式记录：
 
@@ -219,6 +230,6 @@ $$
 
 ## 10. 最近一次更新
 
-- 日期：2026-07-10
-- 状态：完成 Single systems / Introduction
-- 下一动作：学习 Classical information
+- 日期：2026-07-17
+- 状态：完成 Single systems / Classical information
+- 下一动作：学习 Quantum information
